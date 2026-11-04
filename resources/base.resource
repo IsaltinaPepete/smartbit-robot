@@ -5,6 +5,7 @@ Library           Browser
 Library           libs/Account.py
 
 Resource          pages/landing.resource
+Resource          pages/welcome.resource
 
 *** Keywords ***
 Start Session
