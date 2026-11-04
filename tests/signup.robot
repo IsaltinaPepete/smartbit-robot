@@ -22,6 +22,7 @@ Campo nome é obrigatório
     Start Session
     submit signup form    ${account}
     Notice should be    Por favor informe o seu nome completo
+    Take Screenshot
 
 Campo email é obrigatório
     [Tags]    required
@@ -33,6 +34,7 @@ Campo email é obrigatório
     Start Session
     submit signup form    ${account}
     Notice should be    Por favor, informe o seu melhor e-mail
+    Take Screenshot
 
 Campo CPF é obrigatório
     [Tags]    required
@@ -44,6 +46,7 @@ Campo CPF é obrigatório
     Start Session
     submit signup form    ${account}
     Notice should be    Por favor, informe o seu CPF
+    Take Screenshot
 
 Campo email invalido
     [Tags]    inv
@@ -55,7 +58,7 @@ Campo email invalido
     Start Session
     submit signup form    ${account}
     Notice should be    Oops! O email informado é inválido
-
+    Take Screenshot
 
 CPF invalido
     [Tags]    inv
@@ -67,3 +70,4 @@ CPF invalido
     Start Session    
     Submit signup form    ${account}
     Notice should be    Oops! O CPF informado é inválido
+    Take Screenshot
